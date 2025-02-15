@@ -2,15 +2,13 @@
 
 OIDC theme for Keycloak Login
 
-In this project the claims are generated and sent randomly by the [login.ftl](https://github.com/tiagogalvao7/OIDC-PRINCE-Keycloak/themes/custom-theme/custom.v2/login/login.ftl) and [login-oauth-grant.ftl](https://github.com/tiagogalvao7/OIDC-PRINCE-Keycloak.git/themes/custom-theme/custom.v2/login/login-oauth-grant.ftl) files so that you can see a greater diversity of results on the screens where the API calculation values are received (Login screen with GDPR Compliance, and the Grant Access screen with the risk associated with each claim), together with the [Flask-Client-Application](https://github.com/tiagogalvao7/Flask-Client-Application), you can test the entire implementation.
+In this project the claims are generated and sent randomly by the [login.ftl](https://github.com/tiagogalvao7/OIDC-PRINCE-Keycloak/themes/custom-theme/custom.v2/login/login.ftl) and [login-oauth-grant.ftl](https://github.com/tiagogalvao7/OIDC-PRINCE-Keycloak/themes/custom-theme/custom.v2/login/login-oauth-grant.ftl) files so that you can see a greater diversity of results on the screens where the API calculation values are received (Login screen with GDPR Compliance, and the Grant Access screen with the risk associated with each claim), together with the [Flask-Client-Application](https://github.com/tiagogalvao7/Flask-Client-Application), you can test the entire implementation.
 
 ## Steps do test and use OIDC Login Keycloak theme
 
-1. Clone the repository with ``git clone https://github.com/OIDC-PRINCE/oidc-keycloack-themes-testversion-for-Pablo``
+1. Clone the repository with ``git clone https://github.com/tiagogalvao7/OIDC-PRINCE-Keycloak``
 
-2. run ``sudo docker build -t keycloak-custom-theme .``
-
-3. run ``sudo docker run -p 8080:8080 --name keycloak-custom -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin keycloak-custom-theme``
+2. run ``sudo docker-compose up --build``
 
 After compile and run docker file, it's necessary to make some configurations in realm settings
 ![Activate some login functionalities](docs/realmSettings1.png)
