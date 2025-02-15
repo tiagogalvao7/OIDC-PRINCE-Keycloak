@@ -1,4 +1,4 @@
-# oidc-keycloack-themes-testsversion-for-Pablo
+# oidc-keycloack-themes
 
 OIDC theme for Keycloak Login
 
