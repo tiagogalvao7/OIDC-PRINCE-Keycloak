@@ -2,7 +2,7 @@
 
 OIDC theme for Keycloak Login
 
-In this project the claims are generated and sent randomly by the [login.ftl](https://github.com/tiagogalvao7/OIDC-PRINCE-Keycloak/blob/main/themes/custom-theme/custom.v2/login/login.ftl) and [login-oauth-grant.ftl](https://github.com/tiagogalvao7/OIDC-PRINCE-Keycloak/blob/main/themes/custom-theme/custom.v2/login/login.ftl/login-oauth-grant.ftl) files so that you can see a greater diversity of results on the screens where the API calculation values are received (Login screen with GDPR Compliance, and the Grant Access screen with the risk associated with each claim), together with the [Flask-Client-Application](https://github.com/tiagogalvao7/Flask-Client-Application), you can test the entire implementation.
+In this project the claims are generated and sent randomly by the [login.ftl](https://github.com/tiagogalvao7/OIDC-PRINCE-Keycloak/blob/main/themes/custom-theme/custom.v2/login/login.ftl) and [login-oauth-grant.ftl](https://github.com/tiagogalvao7/OIDC-PRINCE-Keycloak/blob/main/themes/custom-theme/custom.v2/login/login.ftl/login-oauth-grant.ftl) files so that you can see a greater diversity of results on the screens where the API calculation values are received (Login screen with GDPR Compliance, and the Grant Access screen with the risk associated with each claim).
 
 ## Steps do test and use OIDC Login Keycloak theme
 
